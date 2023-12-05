@@ -1,0 +1,40 @@
+.container{
+    background-color: black;
+    height: 831px;
+    color: white;
+}
+
+.nh{
+    background-color: rgba(55, 54, 54, 18%);
+    height: 780px;
+    width: 1500px;
+    margin-left: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.num{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.restart button{
+    padding: 10px;
+    width: 130px;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: #66A39B;
+    margin-top: 10px;
+}
+
+.restart button:hover{
+    background-color: white;
+    color: #66A39B;
+    transition: s;
+}

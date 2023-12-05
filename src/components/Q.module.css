@@ -1,0 +1,278 @@
+*{
+    font-family: "Josefin Sans";
+}
+
+.dark{
+    transition: 0.5s;
+    background-image: url(./images/dark.jpg);
+    background-size: 100%;
+    height: 831px; 
+    transition: 0.5s;  
+}
+.light{
+    background-image: url(./images/altumcode-dMUt0X3f59Q-unsplash.jpg);
+    background-size: 100%;
+    height: 831px;
+    transition: 0.5s;
+}
+
+
+
+
+
+.no{
+    background-color:#136F63;
+    color: white;
+    /* height: 40px;
+    width: 180px; */
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    transition: 0.5s;
+}
+.nolight{
+    background-color:rgba(255, 255, 255, 0.919);
+    color: #136F63;
+    /* height: 40px;
+    width: 180px; */
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    transition: 0.5s;
+    border: 3px solid #136F63 ;
+}
+
+
+
+
+.ques{
+    display: flex;   
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+
+
+
+.but{
+    margin-right: 200px;
+}
+.but button{
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    background-color: #434343;
+    outline: none;
+    transition: 0.5s;
+}
+.butlight button{
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: transparent;
+    color: #434343;
+    border:3px solid #136F63;
+    background-color: rgba(255, 255, 255, 0.89);
+    outline: none;
+    margin-right: 200px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.internals{
+    background-color:rgba(63, 63,63, 63%);
+    height: 711px;
+    width: 1625px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.internalslight{
+    background-color:rgba(146, 136, 136, 0.295);
+    height: 711px;
+    width: 1625px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+.saas{
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+
+.theQuestion{
+    font-size: 40px;
+    color: #136F63;
+}
+.theQuestionlight{
+    font-size: 40px;
+    color: black;
+}
+
+
+
+.nm{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    row-gap: 30px;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+
+
+
+
+.buttt button{
+    padding: 10px;
+    border-radius: 14px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #CC5D4D;
+    color: white;
+    border: transparent;
+    transition: 0.5s;
+
+}
+.butttlight button{
+    padding: 10px;
+    border-radius: 14px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color:white;
+    color:#CC5D4D;
+    border: transparent;
+    transition: 0.5s;
+    border: 3px solid #CC5D4D;
+}
+
+
+
+
+
+
+
+
+
+.high{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    width:700px;
+    justify-content: space-between;
+}
+.high button{
+    padding: 10px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #8D9EC6;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+.highlight{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    width:700px;
+    justify-content: space-between;
+    transition: 0.5s;
+
+}
+.highlight button{
+    padding: 10px;
+    border: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: #8D9EC6;
+    font-weight: bold;
+    border: 3px solid #8D9EC6;
+    border-radius: 10px;
+    transition: 0.5s;
+
+}
+
+
+
+.buttt button:hover{
+
+    transition: 0.5s;
+    color: #CC5D4D;
+    background-color: white;
+    
+}
+
+.high button:hover{
+    font-size: 20px;
+    color: #8D9EC6;
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+.butttlight button:hover{
+
+    transition: 0.5s;
+    color: white;
+    background-color:#CC5D4D;
+    
+}
+
+.highlight button:hover{
+    font-size: 20px;
+    color:white;
+    background-color:#8D9EC6;
+    transition: 0.5s;
+}
+
+.hh{
+    color: red;
+    transition: 0.5s;
+}
+
+.hu{
+    color: white;
+    transition: 0.5s;
+}
